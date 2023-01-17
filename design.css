@@ -1,0 +1,111 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+img{
+    
+    width: 250px;
+    position: absolute;
+    left: 550px;
+    top: 160px;
+    float: left;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.main{
+    
+    width: 250px;
+    background-color: white;
+    height: 376px;
+    position: relative;
+    left: 780px;
+    top: 149px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 12px;
+    position: relative;
+    bottom: 70px;
+    color: hsl(228, 12%, 48%);
+
+}
+h2{
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5em;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 600;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    padding: 20px;
+    line-height: 1;
+    font-size: 30px;
+    position: relative;
+    bottom: 35px;
+    color: hsl(212, 21%, 14%);
+}
+.green{
+
+    color:hsl(158, 36%, 37%) ;
+    position: relative;
+    bottom: 100px;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    left: 20px;
+    
+    
+}
+.black{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-size: 12px;
+    position: relative;
+    bottom: 148px;
+    left: 130px;
+
+}
+.btn {
+    background: hsl(158, 36%, 37%);
+    background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Georgia;
+    color: #ffff;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    bottom:120px;
+    width: 150px;
+    height: 20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+  
+.btn:hover {
+    background: #243D25;
+    text-decoration: none;
+}
+.cart-icon{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 485px;
+    left: 860px;
+}
+h4{
+    position: relative;
+    left: 50px;
+}
